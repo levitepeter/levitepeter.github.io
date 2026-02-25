@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Levite Peter | Developer & Educator</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+        body { font-family: system-ui, -apple-system, sans-serif; }
+        .hero-bg { background: linear-gradient(135deg, #0a0a0a, #1a1a2e); }
+        .mobile-nav { display: none; }
+        .mobile-nav.open { display: flex; }
+    </style>
+</head>
+<body class="bg-zinc-950 text-zinc-200">
+
+    <!-- Fixed Nav -->
+    <nav class="fixed top-0 w-full bg-zinc-950/80 backdrop-blur-md z-50 border-b border-zinc-800">
+        <div class="max-w-6xl mx-auto px-6 py-5 flex justify-between items-center">
+            <a href="#" class="text-2xl font-bold text-emerald-400">Levite</a>
+            <div class="hidden md:flex gap-8 text-sm">
+                <a href="#about" class="hover:text-emerald-400 transition">About</a>
+                <a href="#experience" class="hover:text-emerald-400 transition">Experience</a>
+                <a href="#projects" class="hover:text-emerald-400 transition">Projects</a>
+                <a href="#education" class="hover:text-emerald-400 transition">Education</a>
+                <a href="#skills" class="hover:text-emerald-400 transition">Skills</a>
+                <a href="#certifications" class="hover:text-emerald-400 transition">Certifications</a>
+                <a href="#extracurricular" class="hover:text-emerald-400 transition">Music</a>
+                <a href="#contact" class="hover:text-emerald-400 transition">Contact</a>
+            </div>
+            <button id="menu-btn" class="md:hidden text-2xl text-white" aria-label="Toggle menu">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+        <div id="mobile-nav" class="mobile-nav flex-col gap-4 px-6 pb-6 text-sm md:hidden">
+            <a href="#about" class="hover:text-emerald-400 transition">About</a>
+            <a href="#experience" class="hover:text-emerald-400 transition">Experience</a>
+            <a href="#projects" class="hover:text-emerald-400 transition">Projects</a>
+            <a href="#education" class="hover:text-emerald-400 transition">Education</a>
+            <a href="#skills" class="hover:text-emerald-400 transition">Skills</a>
+            <a href="#certifications" class="hover:text-emerald-400 transition">Certifications</a>
+            <a href="#extracurricular" class="hover:text-emerald-400 transition">Music</a>
+            <a href="#contact" class="hover:text-emerald-400 transition">Contact</a>
+        </div>
+    </nav>
+
+    <div class="pt-20 sm:pt-28 max-w-6xl mx-auto px-4 sm:px-6 pb-16 sm:pb-24">
+
+        <!-- Hero -->
+        <section class="hero-bg rounded-2xl border border-zinc-800 p-8 sm:p-12 md:p-20 mb-16 sm:mb-24 flex flex-col md:flex-row items-center gap-10 md:gap-16">
+            <div class="flex-1">
+                <p class="text-xs uppercase tracking-[0.3em] text-emerald-400 font-bold mb-5">Developer & Educator</p>
+                <h1 class="text-5xl sm:text-6xl md:text-7xl font-black leading-[1.1] tracking-tight text-white">
+                    Levite <span class="text-emerald-400">Peter</span>
+                </h1>
+                <p class="text-base sm:text-lg mt-4 text-zinc-400 font-bold uppercase tracking-widest">ex-SAP Labs</p>
+                <p class="mt-6 text-base max-w-xl text-zinc-400 leading-relaxed">
+                    Backend Developer with 3.5 years of experience in SAP, building scalable enterprise solutions. Currently a Java Teaching Assistant and Webstore Management Intern, optimizing Shopify e-commerce operations.
+                </p>
+                <p class="mt-4 text-base max-w-xl text-zinc-400 leading-relaxed">
+                    Adaptable across tech stacks and focused on delivering results. Open to Development or Product Management roles that blend technology and people.
+                </p>
+                <div class="mt-10">
+                    <a href="#contact" class="inline-flex items-center gap-3 bg-emerald-500 hover:bg-emerald-600 px-10 py-4 rounded-xl font-bold text-white transition-all duration-300 text-sm uppercase tracking-widest hover:scale-105">
+                        <i class="fas fa-paper-plane"></i> Let's Talk
+                    </a>
+                </div>
+            </div>
+            <div class="flex-shrink-0">
+                <img src="profile.jpg" alt="Levite Peter" class="w-64 h-64 md:w-80 md:h-80 object-cover rounded-full border-4 border-emerald-400/30 shadow-2xl ring-4 ring-emerald-400/10 ring-offset-4 ring-offset-zinc-950">
+            </div>
+        </section>
+
+        <!-- About -->
+        <section id="about" class="mb-24">
+            <h2 class="text-3xl sm:text-4xl font-black mb-2 text-white uppercase tracking-wide">About Me</h2>
+            <div class="w-12 h-1 bg-emerald-500 rounded-full mb-8"></div>
+            <div class="max-w-4xl">
+                <p class="text-lg text-zinc-400 leading-relaxed">
+                    Driven by integrity and a strong sense of ownership, I value doing the right thing even when no one is watching. A quick learner and adaptable problem-solver, I thrive in dynamic environments that challenge me to grow beyond my comfort zone while providing the support to excel.
+                </p>
+                <p class="mt-6 text-lg text-zinc-400 leading-relaxed">I'm a clear communicator and collaborative team player who values collective success, while holding myself to high individual performance standards.</p>
+            </div>
+        </section>
+
+        <!-- Experience -->
+        <section id="experience" class="mb-24">
+            <h2 class="text-3xl sm:text-4xl font-black mb-2 text-white uppercase tracking-wide">Experience</h2>
+            <div class="w-12 h-1 bg-emerald-500 rounded-full mb-10 sm:mb-12"></div>
+            <div class="space-y-10">
+
+                <div class="bg-zinc-900 border border-zinc-800 rounded-2xl p-6 sm:p-8 hover:border-emerald-500/20 transition-all duration-300">
+                    <div class="flex flex-col sm:flex-row sm:justify-between sm:items-baseline gap-1 mb-1">
+                        <h3 class="text-xl sm:text-2xl font-extrabold text-white">Teaching Assistant / Graduate Assistant</h3>
+                        <span class="text-emerald-400 text-xs font-bold uppercase tracking-widest">May 2025 – Present</span>
+                    </div>
+                    <p class="text-emerald-400 font-bold text-sm mb-4">Trevecca Nazarene University, Nashville, TN</p>
+                    <ul class="space-y-3 text-zinc-400 list-disc pl-5 leading-relaxed">
+                        <li>Tutor and mentor <span class="text-emerald-400 font-bold"></span> undergraduate students in core Java, OOP, and Data Structures & Algorithms</li>
+                        <li>Automated Institutional Research workflows using Python, SQLAlchemy, and SQL Server, reduced manual processing from 40 hours to &lt;5 minutes (<span class="text-emerald-400 font-bold">99% efficiency gain</span>)</li>
+                    </ul>
+                </div>
+
+                <div class="bg-zinc-900 border border-zinc-800 rounded-2xl p-6 sm:p-8 hover:border-emerald-500/20 transition-all duration-300">
+                    <div class="flex flex-col sm:flex-row sm:justify-between sm:items-baseline gap-1 mb-1">
+                        <h3 class="text-xl sm:text-2xl font-extrabold text-white">WebStore Management Intern</h3>
+                        <span class="text-emerald-400 text-xs font-bold uppercase tracking-widest">Jan 2026 – Present</span>
+                    </div>
+                    <p class="text-emerald-400 font-bold text-sm mb-4">eBars, LLC (Organic Nutrition Brand), Franklin/Nashville, TN</p>
+                    <ul class="space-y-3 text-zinc-400 list-disc pl-5 leading-relaxed">
+                        <li>Migrating e-commerce platform from Joomla to Shopify, implementing custom integrations, features, and optimizations</li>
+                        <li>Enhanced functionality, user experience, and cost efficiency and SEO for the online store selling certified organic energy bars and functional nutrition products</li>
+                    </ul>
+                </div>
+
+                <div class="bg-zinc-900 border border-zinc-800 rounded-2xl p-6 sm:p-8 hover:border-emerald-500/20 transition-all duration-300">
+                    <div class="flex flex-col sm:flex-row sm:justify-between sm:items-baseline gap-1 mb-1">
+                        <h3 class="text-xl sm:text-2xl font-extrabold text-white">Developer – Globalization Services</h3>
+                        <span class="text-emerald-400 text-xs font-bold uppercase tracking-widest">Feb 2021 – Jan 2025</span>
+                    </div>
+                    <p class="text-emerald-400 font-bold text-sm mb-4">SAP Labs, India</p>
+                    <ul class="space-y-3 text-zinc-400 list-disc pl-5 leading-relaxed">
+                        <li>Led development of statutory withholding tax reporting (DRC/DRCS) using OO ABAP, CDS Views, SAP CPI iFlows — reduced manual effort by <span class="text-emerald-400 font-bold">60%</span></li>
+                        <li>Built LLM-based prototype to auto-generate configurations — cut setup time by <span class="text-emerald-400 font-bold">35%</span></li>
+                        <li>Performed large-scale vendor master data migrations with <span class="text-emerald-400 font-bold">zero downtime</span></li>
+                        <li><span class="text-emerald-400 font-bold">Finalist</span> in SAP Globalization Services Innovation Program (2022–2024); multiple <span class="text-emerald-400 font-bold">Top Performer & Quality Champion</span> awards</li>
+                    </ul>
+
+                    <div id="sap-details" class="hidden mt-6 space-y-6 border-t border-zinc-800 pt-6">
+                        <div>
+                            <h4 class="text-xs uppercase tracking-widest text-emerald-400 font-bold mb-3">Functional & Consulting</h4>
+                            <ul class="space-y-3 text-zinc-400 list-disc pl-5 leading-relaxed">
+                                <li>Delivered SAP DRC statutory withholding tax reporting solutions for the EMEA region (Germany, UK, Ireland, Poland, France, Belgium, Serbia).</li>
+                                <li>Translated SAP FI withholding tax requirements into compliant DRC reporting solutions.</li>
+                                <li>Provided end-user training, delivered partner enablement sessions, and contributed to process and solution documentation.</li>
+                                <li>Collaborated with Product Owners, Local Product Managers, Architects, DRCCE technical teams, and Customers to gather requirements and align statutory solutions.</li>
+                                <li>Supported FIT/SAT, defect, and production issue resolution for statutory reporting implementations.</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4 class="text-xs uppercase tracking-widest text-emerald-400 font-bold mb-3">Technical & Delivery</h4>
+                            <ul class="space-y-3 text-zinc-400 list-disc pl-5 leading-relaxed">
+                                <li>Led end-to-end development of 4+ DRC reports and maintained 9+ reports using the Document & Reporting Compliance framework across SAP S/4HANA (on-premise) and SAP Cloud environments.</li>
+                                <li>Built reports using CDS Views, OO ABAP field mappings, XML/JSON schemas, BRF+, and Adobe form mapping.</li>
+                                <li>Led the design and development of 2 CPI iFlows (XML & JSON APIs) for statutory reporting in the UK and Spain, reducing manual effort by ~60%.</li>
+                                <li>Created SAP OSS Notes and provided customer support for OSS Note implementation.</li>
+                                <li>Worked in an Agile development environment (Scrum) following test-driven development approach.</li>
+                                <li>Implemented live vendor master data migration using SAP Silent Data Migration with zero downtime.</li>
+                                <li>Built an LLM-based prototype using ISLM to automate SAP withholding tax configuration.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <button id="sap-toggle" class="mt-6 inline-flex items-center gap-2 text-sm font-bold text-emerald-400 hover:text-emerald-300 transition-all duration-300 uppercase tracking-widest">
+                        Read More <i class="fas fa-chevron-down text-xs"></i>
+                    </button>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section id="projects" class="mb-24">
+            <h2 class="text-3xl sm:text-4xl font-black mb-2 text-white uppercase tracking-wide">Featured Projects</h2>
+            <div class="w-12 h-1 bg-emerald-500 rounded-full mb-10 sm:mb-12"></div>
+            <div class="grid md:grid-cols-3 gap-8">
+
+                <div class="bg-zinc-900 border border-zinc-800 rounded-2xl overflow-hidden hover:border-emerald-500/20 hover:-translate-y-1 transition-all duration-300">
+                    <div class="h-44 bg-zinc-800/50 flex items-center justify-center text-6xl">🛒</div>
+                    <div class="p-8">
+                        <h3 class="text-xl font-extrabold mb-3 text-white">Ecommerce Microservices (Spring Boot)</h3>
+                        <p class="text-zinc-500 text-sm mb-4 leading-relaxed">Secure REST APIs with JWT/OAuth2, Stripe payments, Redis caching (<span class="text-emerald-400 font-bold">279ms → 19ms</span>), Kafka event-driven architecture.</p>
+                        <a href="https://github.com/Project-SADL/EcommerceApp" target="_blank" class="text-emerald-400 hover:text-emerald-300 text-sm font-bold transition-all duration-300 uppercase tracking-widest">GitHub →</a>
+                    </div>
+                </div>
+
+                <div class="bg-zinc-900 border border-zinc-800 rounded-2xl overflow-hidden hover:border-emerald-500/20 hover:-translate-y-1 transition-all duration-300">
+                    <div class="h-44 bg-zinc-800/50 flex items-center justify-center text-6xl">📅</div>
+                    <div class="p-8">
+                        <h3 class="text-xl font-extrabold mb-3 text-white">Automated Volunteer Roster System (Django)</h3>
+                        <p class="text-zinc-500 text-sm mb-4 leading-relaxed">Python/Django app that automates fair volunteer scheduling based on roles, availability frequency, and continuity — reducing admin workload and ensuring balanced duty distribution.</p>
+                        <a href="https://github.com/levitepeter/Roster-System" target="_blank" class="text-emerald-400 hover:text-emerald-300 text-sm font-bold transition-all duration-300 uppercase tracking-widest">GitHub →</a>
+                    </div>
+                </div>
+
+                <div class="bg-zinc-900 border border-zinc-800 rounded-2xl overflow-hidden hover:border-emerald-500/20 hover:-translate-y-1 transition-all duration-300">
+                    <div class="h-44 bg-zinc-800/50 flex items-center justify-center text-6xl">📝</div>
+                    <div class="p-8">
+                        <h3 class="text-xl font-extrabold mb-3 text-white">Quiz App – AWS Deployment</h3>
+                        <p class="text-zinc-500 text-sm mb-4 leading-relaxed">AWS stack: S3 hosting, DynamoDB/RDS, Lambda, API Gateway, EC2 — cloud-native deployment demo.</p>
+                        <a href="https://github.com/levitepeter/quiz-app" target="_blank" class="text-emerald-400 hover:text-emerald-300 text-sm font-bold transition-all duration-300 uppercase tracking-widest">GitHub →</a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Education & Skills -->
+        <div class="grid md:grid-cols-2 gap-16 mb-24">
+
+            <section id="education">
+                <h2 class="text-3xl sm:text-4xl font-black mb-2 text-white uppercase tracking-wide">Education</h2>
+                <div class="w-12 h-1 bg-emerald-500 rounded-full mb-8"></div>
+                <div class="space-y-8">
+                    <div>
+                        <h3 class="text-xl font-extrabold text-white">M.S. in Computer Science Management</h3>
+                        <p class="text-emerald-400 font-bold text-sm mt-1">Trevecca Nazarene University, Nashville, TN</p>
+                        <p class="text-emerald-400 text-xs font-bold uppercase tracking-widest mt-1">2025 – Present</p>
+                    </div>
+                    <div>
+                        <h3 class="text-xl font-extrabold text-white">B.E. in Computer Science</h3>
+                        <p class="text-emerald-400 font-bold text-sm mt-1">University Visvesvaraya College of Engineering, Bangalore</p>
+                        <p class="text-emerald-400 text-xs font-bold uppercase tracking-widest mt-1">Graduated 2021</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="skills">
+                <h2 class="text-3xl sm:text-4xl font-black mb-2 text-white uppercase tracking-wide">Skills</h2>
+                <div class="w-12 h-1 bg-emerald-500 rounded-full mb-8"></div>
+                <div class="flex flex-wrap gap-3">
+                    <span class="bg-emerald-500 text-white px-4 py-2 rounded-lg text-sm font-bold">Java</span>
+                    <span class="bg-zinc-800 border border-zinc-700 text-zinc-300 px-4 py-2 rounded-lg text-sm font-semibold">Spring Boot</span>
+                    <span class="bg-emerald-500 text-white px-4 py-2 rounded-lg text-sm font-bold">Python</span>
+                    <span class="bg-zinc-800 border border-zinc-700 text-zinc-300 px-4 py-2 rounded-lg text-sm font-semibold">ABAP</span>
+                    <span class="bg-zinc-800 border border-zinc-700 text-zinc-300 px-4 py-2 rounded-lg text-sm font-semibold">SAP CPI</span>
+                    <span class="bg-zinc-800 border border-zinc-700 text-zinc-300 px-4 py-2 rounded-lg text-sm font-semibold">Shopify</span>
+                    <span class="bg-emerald-500 text-white px-4 py-2 rounded-lg text-sm font-bold">AWS</span>
+                    <span class="bg-zinc-800 border border-zinc-700 text-zinc-300 px-4 py-2 rounded-lg text-sm font-semibold">Microservices</span>
+                    <span class="bg-zinc-800 border border-zinc-700 text-zinc-300 px-4 py-2 rounded-lg text-sm font-semibold">SQL / NoSQL</span>
+                    <span class="bg-zinc-800 border border-zinc-700 text-zinc-300 px-4 py-2 rounded-lg text-sm font-semibold">Git</span>
+                    <span class="bg-zinc-800 border border-zinc-700 text-zinc-300 px-4 py-2 rounded-lg text-sm font-semibold">Kafka</span>
+                    <span class="bg-zinc-800 border border-zinc-700 text-zinc-300 px-4 py-2 rounded-lg text-sm font-semibold">Redis</span>
+                    <span class="bg-emerald-500 text-white px-4 py-2 rounded-lg text-sm font-bold">OOP / DSA</span>
+                    <span class="bg-emerald-500 text-white px-4 py-2 rounded-lg text-sm font-bold">System Design</span>
+                    <span class="bg-zinc-800 border border-zinc-700 text-zinc-300 px-4 py-2 rounded-lg text-sm font-semibold">Finance</span>
+                    <span class="bg-zinc-800 border border-zinc-700 text-zinc-300 px-4 py-2 rounded-lg text-sm font-semibold">Withholding Taxes</span>
+                </div>
+            </section>
+
+        </div>
+
+        <!-- Certifications -->
+        <section id="certifications" class="mb-24">
+            <h2 class="text-3xl sm:text-4xl font-black mb-2 text-white uppercase tracking-wide">Certifications</h2>
+            <div class="w-12 h-1 bg-emerald-500 rounded-full mb-10 sm:mb-12"></div>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+                <div class="bg-zinc-900 border border-zinc-800 p-6 rounded-2xl hover:border-emerald-500/20 hover:-translate-y-1 transition-all duration-300">
+                    <i class="fas fa-award text-emerald-400 text-2xl mb-3"></i>
+                    <h3 class="text-base font-extrabold mb-2 text-white">Low Level & High Level System Design</h3>
+                    <p class="text-zinc-500 text-sm mb-4">Scaler Topics – Comprehensive system design certification.</p>
+                    <a href="https://certificate.scaler.com/validate/cc43a399f1ce91f90ffe0719ec9055098340da5a4227c5ae557fdb688ffa050d" target="_blank" class="text-emerald-400 hover:text-emerald-300 text-sm font-bold transition-all duration-300 uppercase tracking-wider">View →</a>
+                </div>
+
+                <div class="bg-zinc-900 border border-zinc-800 p-6 rounded-2xl hover:border-emerald-500/20 hover:-translate-y-1 transition-all duration-300">
+                    <i class="fas fa-award text-emerald-400 text-2xl mb-3"></i>
+                    <h3 class="text-base font-extrabold mb-2 text-white">Duolingo English Test</h3>
+                    <p class="text-zinc-500 text-sm mb-4">Certified English language proficiency for professional communication.</p>
+                    <a href="https://certs.duolingo.com/sfdutzb5bc1e383w" target="_blank" class="text-emerald-400 hover:text-emerald-300 text-sm font-bold transition-all duration-300 uppercase tracking-wider">View →</a>
+                </div>
+
+                <div class="bg-zinc-900 border border-zinc-800 p-6 rounded-2xl hover:border-emerald-500/20 hover:-translate-y-1 transition-all duration-300">
+                    <i class="fas fa-award text-emerald-400 text-2xl mb-3"></i>
+                    <h3 class="text-base font-extrabold mb-2 text-white">HackerRank – Problem Solving</h3>
+                    <p class="text-zinc-500 text-sm mb-4">Data structures (arrays, strings) and algorithms (sorting, searching).</p>
+                    <a href="https://www.hackerrank.com/certificates/a4b180230d72" target="_blank" class="text-emerald-400 hover:text-emerald-300 text-sm font-bold transition-all duration-300 uppercase tracking-wider">View →</a>
+                </div>
+
+                <div class="bg-zinc-900 border border-zinc-800 p-6 rounded-2xl hover:border-emerald-500/20 hover:-translate-y-1 transition-all duration-300">
+                    <i class="fas fa-award text-emerald-400 text-2xl mb-3"></i>
+                    <h3 class="text-base font-extrabold mb-2 text-white">HackerRank – Java (Basic)</h3>
+                    <p class="text-zinc-500 text-sm mb-4">Core Java programming concepts and problem-solving.</p>
+                    <a href="https://www.hackerrank.com/certificates/5ce6333977cb" target="_blank" class="text-emerald-400 hover:text-emerald-300 text-sm font-bold transition-all duration-300 uppercase tracking-wider">View →</a>
+                </div>
+
+                <div class="bg-zinc-900 border border-zinc-800 p-6 rounded-2xl hover:border-emerald-500/20 hover:-translate-y-1 transition-all duration-300">
+                    <i class="fas fa-award text-emerald-400 text-2xl mb-3"></i>
+                    <h3 class="text-base font-extrabold mb-2 text-white">Generative AI</h3>
+                    <p class="text-zinc-500 text-sm mb-4">Generative AI concepts, tools, and applications.</p>
+                    <a href="https://generateinvoice.teachx.in/generatecertificate/certificate/keertipurswani_db/6021/24943/41" target="_blank" class="text-emerald-400 hover:text-emerald-300 text-sm font-bold transition-all duration-300 uppercase tracking-wider">View →</a>
+                </div>
+
+                <div class="bg-zinc-900 border border-zinc-800 p-6 rounded-2xl flex items-center justify-center hover:border-emerald-500/20 hover:-translate-y-1 transition-all duration-300">
+                    <div class="text-center">
+                        <i class="fab fa-linkedin text-emerald-400 text-2xl mb-3"></i>
+                        <h3 class="text-base font-extrabold mb-3 text-white">LinkedIn Recommendations</h3>
+                        <a href="https://www.linkedin.com/in/levite-peter/details/recommendations/?detailScreenTabIndex=0" target="_blank" class="inline-block bg-emerald-500 hover:bg-emerald-600 px-6 py-3 rounded-xl font-bold text-white text-sm transition-all duration-300 uppercase tracking-widest hover:scale-105">
+                            View
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Extra-Curricular -->
+        <section id="extracurricular" class="mb-24">
+            <h2 class="text-3xl sm:text-4xl font-black mb-2 text-white uppercase tracking-wide">Extra-Curricular</h2>
+            <div class="w-12 h-1 bg-emerald-500 rounded-full mb-10 sm:mb-12"></div>
+            <div class="bg-zinc-900 border border-zinc-800 rounded-2xl p-6 sm:p-10 text-center md:text-left">
+                <h3 class="text-2xl sm:text-3xl font-black mb-4 text-white">Christian Singer</h3>
+                <p class="text-lg text-zinc-400 mb-8 max-w-3xl mx-auto md:mx-0 leading-relaxed">
+                    Passionate about creating music that glorifies God.
+                </p>
+                <div class="grid md:grid-cols-3 gap-6">
+                    <div class="bg-zinc-800/50 border border-zinc-700/50 p-6 rounded-2xl hover:-translate-y-1 hover:border-emerald-500/20 transition-all duration-300">
+                        <i class="fab fa-youtube text-red-500 text-4xl mb-4"></i>
+                        <h4 class="text-base font-extrabold mb-2 text-white">Sunday Worship (APC Bangalore)</h4>
+                        <p class="text-zinc-500 text-sm mb-4">Live worship — "Shout for Joy", "Your Grace is Enough", and more.</p>
+                        <a href="https://www.youtube.com/watch?v=rCXsKbO72FY&list=PLPWRUKFcHolVajNEO6-75zKCutriuPlfB&index=7&t=596s" target="_blank" class="text-emerald-400 hover:text-emerald-300 font-bold text-sm flex items-center gap-2 justify-center md:justify-start transition-all duration-300 uppercase tracking-wider">
+                            <i class="fas fa-play"></i> Watch
+                        </a>
+                    </div>
+
+                    <div class="bg-zinc-800/50 border border-zinc-700/50 p-6 rounded-2xl hover:-translate-y-1 hover:border-emerald-500/20 transition-all duration-300">
+                        <i class="fab fa-youtube text-red-500 text-4xl mb-4"></i>
+                        <h4 class="text-base font-extrabold mb-2 text-white">Original</h4>
+                        <p class="text-zinc-500 text-sm mb-4">An original song from my journey.</p>
+                        <a href="https://www.youtube.com/watch?v=Dd9ExxrvJqQ" target="_blank" class="text-emerald-400 hover:text-emerald-300 font-bold text-sm flex items-center gap-2 justify-center md:justify-start transition-all duration-300 uppercase tracking-wider">
+                            <i class="fas fa-play"></i> Watch
+                        </a>
+                    </div>
+
+                    <div class="bg-zinc-800/50 border border-zinc-700/50 p-6 rounded-2xl flex flex-col items-center justify-center hover:-translate-y-1 hover:border-emerald-500/20 transition-all duration-300">
+                        <i class="fab fa-instagram text-pink-500 text-4xl mb-4"></i>
+                        <h4 class="text-base font-extrabold mb-2 text-white">@levite.peter</h4>
+                        <p class="text-zinc-500 text-sm mb-4">Music updates and faith-inspired content.</p>
+                        <a href="https://www.instagram.com/levite.peter/" target="_blank" class="inline-block bg-emerald-500 hover:bg-emerald-600 px-6 py-3 rounded-xl font-bold text-white text-sm transition-all duration-300 uppercase tracking-widest hover:scale-105">
+                            Follow
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Explore Faith -->
+        <section class="mb-24 bg-zinc-900 border border-zinc-800 rounded-2xl p-8 sm:p-14 text-center">
+            <i class="fas fa-cross text-emerald-400 text-4xl mb-4"></i>
+            <h2 class="text-3xl sm:text-4xl font-black mb-2 text-white uppercase tracking-wide">Explore Faith</h2>
+            <div class="w-12 h-1 bg-emerald-500 rounded-full mx-auto mb-8"></div>
+            <p class="text-lg text-zinc-400 mb-8 max-w-xl mx-auto">Faith is at the core of everything I do. If you're curious or seeking, I'd love for you to explore. Feel free to DM me if you have any questions about faith!</p>
+            <a href="https://www.instagram.com/p/DBg3VyptWyq/" target="_blank" class="inline-flex items-center gap-3 bg-emerald-500 hover:bg-emerald-600 px-10 py-4 rounded-xl font-bold text-white text-sm transition-all duration-300 uppercase tracking-widest hover:scale-105">
+                <i class="fab fa-instagram"></i> Explore
+            </a>
+        </section>
+
+        <!-- Contact -->
+        <section id="contact" class="bg-zinc-900 border border-zinc-800 rounded-2xl p-8 sm:p-14 text-center">
+            <h2 class="text-3xl sm:text-4xl font-black mb-2 text-white uppercase tracking-wide">Let's Connect</h2>
+            <div class="w-12 h-1 bg-emerald-500 rounded-full mx-auto mb-8"></div>
+            <p class="text-lg sm:text-xl mb-10 text-zinc-400">Open to development, cloud, e-commerce, management, or innovative tech opportunities.</p>
+            <a href="mailto:levitegpeter@gmail.com" class="inline-block bg-white text-zinc-950 font-bold px-10 py-5 rounded-2xl text-lg hover:bg-emerald-400 transition-all duration-300">
+                levitegpeter@gmail.com
+            </a>
+            <div class="flex justify-center gap-8 sm:gap-10 mt-12 text-3xl">
+                <a href="https://www.linkedin.com/in/levite-peter" target="_blank" class="text-zinc-500 hover:text-emerald-400 hover:scale-110 transition-all duration-300"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/levitepeter" target="_blank" class="text-zinc-500 hover:text-white hover:scale-110 transition-all duration-300"><i class="fab fa-github"></i></a>
+                <a href="https://www.instagram.com/levite.peter/" target="_blank" class="text-zinc-500 hover:text-pink-400 hover:scale-110 transition-all duration-300"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.youtube.com/results?search_query=levite+peter+singer" target="_blank" class="text-zinc-500 hover:text-red-500 hover:scale-110 transition-all duration-300"><i class="fab fa-youtube"></i></a>
+            </div>
+        </section>
+
+    </div>
+
+    <footer class="text-center py-8 text-zinc-600 text-sm border-t border-zinc-800">
+        &copy; 2026 Levite Peter &bull; Vibe coded with Claude — proof that prompting is also one of my strengths 🫣✨
+    </footer>
+
+    <script>
+        const menuBtn = document.getElementById('menu-btn');
+        const mobileNav = document.getElementById('mobile-nav');
+        const icon = menuBtn.querySelector('i');
+        menuBtn.addEventListener('click', () => {
+            mobileNav.classList.toggle('open');
+            icon.classList.toggle('fa-bars');
+            icon.classList.toggle('fa-xmark');
+        });
+        mobileNav.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', () => {
+                mobileNav.classList.remove('open');
+                icon.classList.add('fa-bars');
+                icon.classList.remove('fa-xmark');
+            });
+        });
+
+        document.getElementById('sap-toggle').addEventListener('click', function() {
+            const details = document.getElementById('sap-details');
+            const isHidden = details.classList.toggle('hidden');
+            this.innerHTML = isHidden
+                ? 'Read More <i class="fas fa-chevron-down text-xs ml-1"></i>'
+                : 'Show Less <i class="fas fa-chevron-up text-xs ml-1"></i>';
+        });
+    </script>
+</body>
+</html>
